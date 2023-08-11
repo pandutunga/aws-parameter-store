@@ -14,3 +14,7 @@ variable "params" {
     { name = "roboshop.dev.frontend.shipping_url", value = "http://shipping-dev.pandudevopsb72.store:8080/", type= "String" }
   ]
 }
+
+
+
+
