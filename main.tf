@@ -24,10 +24,10 @@ variable "params" {
     { name = "roboshop.dev.payment.amqp_host", value = "rabbitmq-dev.pandudevopsb72.store", type = "String" },
     { name = "roboshop.dev.payment.amqp_user", value = "roboshop", type = "String" },
     { name = "roboshop.dev.shipping.cart_endpoint", value = "cart-dev.pandudevopsb72.store:8080/", type = "String" },
-    { name = "roboshop.dev.shipping.db_host", value = "mysql-dev.pandudevopsb72.store", type = "String" },\
+    { name = "roboshop.dev.shipping.db_host", value = "mysql-dev.pandudevopsb72.store", type = "String" },
     { name = "roboshop.dev.user.mongo", value = "true", type = "String" },
     { name = "roboshop.dev.user.redis_host", value = "redis-dev.pandudevopsb72.store", type = "String" },
-    { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-{{env}}.pandudevopsb72.store:27017/users", type = "String" },
+    { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.pandudevopsb72.store:27017/users", type = "String" },
 
 
     ### Passwords will be never part of git repos, usually in organizations we create them manually
